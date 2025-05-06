@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link 
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" 
+  rel="stylesheet"
+/>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>Trumph computers Shop - Computers & Accessories</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo" aria-label="Futuristic Tech Shop Logo">Trumph computers</div>
+  <nav aria-label="Primary navigation">
+    <ul>
+      <li><a href="#hero" tabindex="0">Home</a></li>
+      <li><a href="#services" tabindex="0">Services</a></li>
+      <li><a href="#new-products" tabindex="0">New Products</a></li>
+      <li><a href="#products" tabindex="0">Products</a></li>
+      <li><a href="#pricing" tabindex="0">Pricing</a></li>
+      <li><a href="#contact" tabindex="0">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="hero" class="hero" role="banner">
+    <h1>Revolutionize Your Tech Experience</h1>
+    <p>Premium computers, cutting-edge laptops, CCTV cameras and accessories — all at unbeatable prices. The future of tech starts here.</p>
+    <button class="btn-primary" onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})" aria-label="Shop Now">Shop Now</button>
+    <div class="orb" aria-hidden="true"></div>
+  </section>
+
+  
+     <!-- Typed.js Text Animation -->
+     <div id="typed-output"></div>
+  
+  <section id="services" aria-labelledby="services-title">
+  <h2 id="services-title" class="section-title">Our Services</h2>
+  <div class="services">
+    <!-- Existing cards -->
+    <article class="service-card" tabindex="0" role="region" aria-label="Custom PC Builds">
+      <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+        <path d="M12 12h40v40H12z" stroke="#00ffff" stroke-width="2" fill="none"/>
+        <path d="M12 32h40M32 12v40" stroke="#00ffff" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <h3>Custom PC Builds</h3>
+      <p>Tailored computer builds to match your performance needs and budget.</p>
+    </article>
+
+    <article class="service-card" tabindex="0" role="region" aria-label="On-site Installation">
+      <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+        <circle cx="32" cy="32" r="28" stroke="#00ffff" stroke-width="2" fill="none"/>
+        <path d="M32 16v16l12 6" stroke="#00ffff" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <h3>On-site Installation</h3>
+      <p>Professional setup for CCTV cameras and equipment at your location.</p>
+    </article>
+
+    <article class="service-card" tabindex="0" role="region" aria-label="Hardware Repairs">
+      <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+        <rect x="15" y="16" width="34" height="32" stroke="#00ffff" stroke-width="2" fill="none" rx="4"/>
+        <path d="M32 24v16M24 32h16" stroke="#00ffff" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+      <h3>Hardware Repairs</h3>
+      <p>Trusted repair services to get your devices back to peak condition.</p>
+    </article>
+
+    <!-- New cards -->
+    <article class="service-card" tabindex="0" role="region" aria-label="Computer Sales">
+      <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+        <rect x="10" y="16" width="44" height="28" stroke="#00ffff" stroke-width="2" fill="none"/>
+        <line x1="10" y1="44" x2="54" y2="44" stroke="#00ffff" stroke-width="2"/>
+      </svg>
+      <h3>Computer Sales</h3>
+      <p>Wide range of desktops and laptops for personal and business use.</p>
+    </article>
+
+    <article class="service-card" tabindex="0" role="region" aria-label="Printers">
+      <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+        <rect x="16" y="16" width="32" height="20" stroke="#00ffff" stroke-width="2" fill="none"/>
+        <path d="M20 36h24v12H20z" stroke="#00ffff" stroke-width="2" fill="none"/>
+      </svg>
+      <h3>Printers</h3>
+      <p>Reliable inkjet and laser printers for office and home printing needs.</p>
+    </article>
+
+    <article class="service-card" tabindex="0" role="region" aria-label="POS Systems">
+      <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+        <rect x="12" y="16" width="40" height="28" stroke="#00ffff" stroke-width="2" fill="none"/>
+        <path d="M24 44v4h16v-4" stroke="#00ffff" stroke-width="2" fill="none"/>
+      </svg>
+      <h3>POS Systems</h3>
+      <p>Efficient Point of Sale systems to streamline your business operations.</p>
+    </article>
+
+    <article class="service-card" tabindex="0" role="region" aria-label="CCTV Installation & Sales">
+      <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+        <circle cx="32" cy="32" r="10" stroke="#00ffff" stroke-width="2" fill="none"/>
+        <path d="M22 42l-6 6M42 22l6-6" stroke="#00ffff" stroke-width="2"/>
+      </svg>
+      <h3>CCTV Installation & Sales</h3>
+      <p>Secure your space with top-grade surveillance systems and expert setup.</p>
+    </article>
+
+    <article class="service-card" tabindex="0" role="region" aria-label="Biometric Systems">
+      <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+        <path d="M32 12a20 20 0 0 1 20 20" stroke="#00ffff" stroke-width="2" fill="none"/>
+        <path d="M32 52a20 20 0 0 1-20-20" stroke="#00ffff" stroke-width="2" fill="none"/>
+        <circle cx="32" cy="32" r="4" fill="#00ffff"/>
+      </svg>
+      <h3>Biometric Systems</h3>
+      <p>Modern fingerprint and facial recognition solutions for access control.</p>
+    </article>
+
+    <article class="service-card" tabindex="0" role="region" aria-label="PBX System">
+      <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+        <path d="M12 20h40v24H12z" stroke="#00ffff" stroke-width="2" fill="none"/>
+        <line x1="32" y1="20" x2="32" y2="44" stroke="#00ffff" stroke-width="2"/>
+        <line x1="12" y1="32" x2="52" y2="32" stroke="#00ffff" stroke-width="2"/>
+      </svg>
+      <h3>PBX System</h3>
+      <p>Private telephone exchange systems to enhance internal communication.</p>
+    </article>
+
+  </div>
+</section>
+
+
+  <section id="new-products" aria-labelledby="new-products-title">
+    <h2 id="new-products-title" class="section-title">New Products on the Market</h2>
+    <div class="new-products-list" role="list">
+      <article class="new-product-item" tabindex="0" role="listitem" aria-label="Xenotech UltraBook Laptop">
+        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80" alt="Xenotech UltraBook Laptop" />
+        <div class="new-product-info">
+          <h4>Xenotech UltraBook Laptop</h4>
+          <p>Ultra-thin design with powerful 12th Gen processor and OLED display.</p>
+          <div class="price">KSH 29,999</div>
+        </div>
+      </article>
+      <article class="new-product-item" tabindex="0" role="listitem" aria-label="Sentinel Pro CCTV Camera">
+        <img src="https://images.unsplash.com/photo-1582154235370-2eb66edc92f6?auto=format&fit=crop&w=400&q=80" alt="Sentinel Pro CCTV Camera" />
+        <div class="new-product-info">
+          <h4>Sentinel Pro CCTV Camera</h4>
+          <p>4K night vision, motion detection, and AI alerts for your security.</p>
+          <div class="price">KSH 4800</div>
+        </div>
+      </article>
+      <article class="new-product-item" tabindex="0" role="listitem" aria-label="Arctic Blaze Mechanical Keyboard">
+        <img src="https://images.unsplash.com/photo-1557165468-1f8120af16cc?auto=format&fit=crop&w=400&q=80" alt="Arctic Blaze Mechanical Keyboard" />
+        <div class="new-product-info">
+          <h4>Arctic Blaze Mechanical Keyboard</h4>
+          <p>RGB lighting with tactile switches designed for gamers and coders.</p>
+          <div class="price">KSH29,999</div>
+        </div>
+      </article>
+      <article class="new-product-item" tabindex="0" role="listitem" aria-label="Vortex 500W Gaming Mouse">
+        <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=400&q=80" alt="Vortex 500W Gaming Mouse" />
+        <div class="new-product-info">
+          <h4>Vortex 500W Gaming Mouse</h4>
+          <p>Ergonomic design with adjustable DPI and customizable buttons.</p>
+          <div class="price">KSH 700</div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="products" aria-labelledby="products-title">
+    <h2 id="products-title" class="section-title">Our Products</h2>
+    <div class="products-grid" role="list">
+      <article class="product-card position-relative" role="listitem" tabindex="0" aria-label="Velocity Pro Laptop with 8GB RAM and 512GB SSD">
+        <div class="ribbon">Best Seller</div>
+        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80" alt="Velocity Pro Laptop" />
+        <div class="product-info">
+          <h4>Velocity Pro Laptop</h4>
+          <p>8GB RAM, 512GB SSD, Intel i7, vibrant 15.6" Full HD display.</p>
+          <div class="price-container"><span class="price">KSH 35,000</span></div>
+        </div>
+      </article>
+      <article class="product-card position-relative" role="listitem" tabindex="0" aria-label="NightEye HD CCTV Camera with 1080p resolution">
+        <img src="https://images.unsplash.com/photo-1582154235370-2eb66edc92f6?auto=format&fit=crop&w=400&q=80" alt="NightEye HD CCTV Camera" />
+        <div class="product-info">
+          <h4>NightEye HD CCTV Camera</h4>
+          <p>1080p resolution, mobile app compatible, easy installation.</p>
+          <div class="price-container"><span class="price cutoff">KSH 8,000</span><span class="price">KSH 6,900</span></div>
+        </div>
+      </article>
+      <article class="product-card position-relative" role="listitem" tabindex="0" aria-label="Nova Desktop PC with Ryzen 7 and RTX 3060">
+        <div class="ribbon">New</div>
+        <img src="https://images.unsplash.com/photo-1587202372775-d199df86d95f?auto=format&fit=crop&w=400&q=80" alt="Nova Desktop PC" />
+        <div class="product-info">
+          <h4>Nova Desktop PC</h4>
+          <p>AMD Ryzen 7, 16GB RAM, RTX 3060, liquid cooling, ultra-fast performance.</p>
+          <div class="price-container"><span class="price">KSH 3,600</span></div>
+        </div>
+      </article>
+      <article class="product-card position-relative" role="listitem" tabindex="0" aria-label="NanoX Wireless Earbuds with Noise Cancellation">
+        <img src="https://images.unsplash.com/photo-1512314889357-e157c22f938d?auto=format&fit=crop&w=400&q=80" alt="NanoX Wireless Earbuds" />
+        <div class="product-info">
+          <h4>NanoX Wireless Earbuds</h4>
+          <p>Noise cancellation, IPX7 waterproof, 20 hours playback per charge.</p>
+          <div class="price-container"><span class="price">KSH 1,200</span></div>
+        </div>
+      </article>
+      <article class="product-card position-relative" role="listitem" tabindex="0" aria-label="Gladiator 2TB External SSD">
+        <img src="https://images.unsplash.com/photo-1574680096145-27a491c151ae?auto=format&fit=crop&w=400&q=80" alt="Gladiator 2TB External SSD" />
+        <div class="product-info">
+          <h4>Gladiator 2TB SSD</h4>
+          <p>Portable, ultra-fast USB 3.2, shock resistant, compact design.</p>
+          <div class="price-container"><span class="price cutoff">KSH 2,000</span><span class="price">KSH 1,800</span></div>
+        </div>
+      </article>
+      <article class="product-card position-relative" role="listitem" tabindex="0" aria-label="Aquila VR Headset with 4K resolution and wide FOV">
+        <div class="ribbon">Hot</div>
+        <img src="https://images.unsplash.com/photo-1580894747998-8923c651b456?auto=format&fit=crop&w=400&q=80" alt="Aquila VR Headset" />
+        <div class="product-info">
+          <h4>Aquila VR Headset</h4>
+          <p>4K resolution, wide field of view, wireless freedom, immersive experience.</p>
+          <div class="price-container"><span class="price">KSH 4,000</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="pricing" aria-labelledby="pricing-title">
+    <h2 id="pricing-title" class="section-title">Current Pricing & Deals</h2>
+    <div style="max-width: 800px; margin: 0 auto; color: #a0d8ffcc; font-size: 1rem; line-height: 1.4;">
+      <p><strong>Limited-Time Offers:</strong> Save up to 20% on selected laptops and accessories! Flash sales run weekly with special discount cut-offs:</p>
+      <ul style="list-style: disc; padding-left: 1.5rem; margin-bottom: 2rem;">
+        <li><strong>Laptops:</strong> Discounts up to 15% on Ultrabooks and Gaming Laptops from Xenotech and Velocity series.</li>
+        <li><strong>CCTV Cameras:</strong> NightEye & Sentinel Pro models now 10-20% off.</li>
+        <li><strong>Accessories:</strong> Free shipping on orders over $150.</li>
+      </ul>
+      <p><strong>Why shop with us?</strong></p>
+      <ul style="list-style: disc; padding-left: 1.5rem;">
+        <li>Expert customer support and on-site assistance.</li>
+        <li>Trusted warranty and repair plans on all devices.</li>
+        <li>Secure payment and 30-day return policy.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" aria-labelledby="contact-title">
+    <h2 id="contact-title" class="section-title">Contact Us</h2>
+    <div style="max-width: 600px; margin: 0 auto; text-align: center; color: #a0d8ffcc; font-size: 1rem; line-height: 1.4;">
+      <p>Have questions or need assistance? Reach out to our expert team!</p>
+      <p><strong>Email:</strong> support@triumphshop.com</p>
+      <p><strong>Phone:</strong>  +254 718 039956  TECH</p>
+      <p><strong>Location:</strong> oppossite YETU Sacco MERU TOWN</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 TRIUMPH COMPUTERS.ELECTRICAL AND ELECTRONICS. All rights reserved.
+  <p>Designed by</p>
+  <a href="https://victor-murithi.vercel.app/">victor-murithi-dev</a>
+</footer>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
